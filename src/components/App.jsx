@@ -46,7 +46,29 @@ export class App extends Component {
     );
   };
 
+  componentDidMount() {
+    // console.log('App componentDidMount');
+
+    const contacts = localStorage.getItem('contacts');
+    const parsedContacts = JSON.parse(contacts);
+
+    if (parsedContacts) {
+      this.setState({ contacts: parsedContacts });
+    }
+  }
+
+  componentDidUpdate(prevState) {
+    // console.log('App componentDidUpdate');
+
+    if (this.state.contacts !== prevState.contacts) {
+      // console.log('Оновився список контактів');
+
+      localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
+    }
+  }
+
   render() {
+    // console.log('App render');
     const { filter } = this.state;
     const visibleContacts = this.getVisibleContacts();
     return (
