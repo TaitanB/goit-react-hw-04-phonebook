@@ -57,7 +57,7 @@ export class App extends Component {
     }
   }
 
-  componentDidUpdate(prevState) {
+  componentDidUpdate(prevProps, prevState) {
     // console.log('App componentDidUpdate');
 
     if (this.state.contacts !== prevState.contacts) {
