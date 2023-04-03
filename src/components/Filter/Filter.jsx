@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Label, Input } from './Contacts.styled';
+import { Label, Input } from './Filter.styled';
 
 const Filter = ({ value, onChange }) => (
   <Label>
