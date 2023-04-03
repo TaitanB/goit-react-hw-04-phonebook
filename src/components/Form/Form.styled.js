@@ -5,9 +5,9 @@ export const FormAddContact = styled.form`
   flex-direction: column;
   gap: 20px;
   padding: 30px;
-  border: 1px solid rgb(82 93 143);
+  border: 1px solid rgb(175 28 7);
   border-radius: 20px;
-  background-color: rgb(129 163 233);
+  background-color: rgb(215 84 66);
 `;
 
 export const Label = styled.label`
@@ -19,8 +19,8 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  background-color: rgb(188 200 229);
-  border: 1px solid rgb(82 93 143);
+  background-color: rgb(229 206 188);
+  border: 1px solid rgb(175 28 7);
   border-radius: 5px;
   padding: 5px;
 `;
@@ -28,9 +28,9 @@ export const Input = styled.input`
 export const BtnContact = styled.button`
   margin: auto;
   padding: 5px 10px;
-  border: 1px solid rgb(82 93 143);
+  border: 1px solid rgb(175 28 7);
   border-radius: 5px;
-  background-color: rgb(179 189 205);
+  background-color: rgb(233 81 15);
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1),
     0 0 30px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1),
@@ -38,8 +38,8 @@ export const BtnContact = styled.button`
 
   :hover,
   :focus {
-    background-color: rgb(82 93 143);
-    color: rgb(179 189 205);
+    background-color: rgb(159 135 125);
+    /* color: rgb(179 189 205); */
     scale: 0.9;
   }
 `;

@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   margin: 50px auto;
   padding: 30px;
   border-radius: 20px;
-  background-color: rgb(163 184 213);
+  background-color: rgb(201 116 60);
   align-items: center;
 
   > ul {

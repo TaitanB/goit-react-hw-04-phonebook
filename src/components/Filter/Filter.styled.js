@@ -9,8 +9,8 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  background-color: rgb(188 200 229);
-  border: 1px solid rgb(82 93 143);
+  background-color: rgb(229 206 188);
+  border: 1px solid rgb(175 28 7);
   border-radius: 5px;
   padding: 5px;
 `;
